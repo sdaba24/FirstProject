@@ -1,36 +1,40 @@
 <template>
     <div id="home">
-        <topNav/>
         <Header/>
         <MainImages/>
       
         <center>
-    <div class="text">
+    <!--<div class="aboutMe">
         <p>Hi! I'm a current student at Barnard College currently pursuing degrees in 
-            Medical Anthropology and Computer Science. </p>
+            Medical Anthropology and Computer Science. 
     </div>
-            <p class="homepageheading"> Some of my socials: </p>
-            <a href="https://www.instagram.com/soretii.iii/"> link to insta! </a>
+            <p class="homepageheading"> Some of my socials: </p>-->
 
     <div>
-        <p class="link"> If you want to check out my resume...</p>
+        <div class="mediaButtons">
+            <mediaButtons/>
+        </div>
+        
     </div>
         </center>
-    <div id="ResumeSect">
+    <div>
         <Resume/>
     </div>
     </div>
-
 </template>
 
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Noto+Serif&family=Poppins:wght@200;400&family=Raleway:wght@300&family=Roboto+Condensed&family=Rowdies:wght@300&display=swap');
     body{
-        background-color: ivory;
+        background-color: whitesmoke;
+    }
+    .aboutMe{
+        font-family:'Noto Serif', serif; 
     }
     .homepagetext{
-        font-size: 25px;
-        color: black;
+        font-size: 20px;
+        color: darkblue;
     }
 /* text next to image */
     .image{

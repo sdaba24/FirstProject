@@ -47,20 +47,4 @@
         flex-wrap: nowrap;
         justify-content: space-evenly;
     }
-
-/* one and then two */
-/*
-    .picContainer2{
-        display: flex;
-        justify-content: space-around;
-    }
-    #imagesTwo{
-        display: flex;
-        flex-direction: column;
-    }
-    #imagesOne{
-        display: flex;
-        align-items: center;
-    }
-*/
 </style>

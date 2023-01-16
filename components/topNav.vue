@@ -20,38 +20,58 @@
     -->
 
 <template>
-  <center>
+  <div class="searchbar">
+  
     <!--made class
     want to put nav into a menu bar, how tho?-->
     <div class="topnav">
-      <a class="active" href="#home"> Home</a>
-      <a class="cont" href="#contact"> Contact</a>
-      <a class="ab" href="#about"> About</a>
+      <div class="home">
+        <a class="home" href="./Homee"> Home</a>
+      </div>
+      <div class="cont">
+        <a class="cont" href="./Contact"> Contact</a>
+      </div>
+      <div class="ab">
+        <a class="ab" href="./About"> About</a>
+      </div>
     </div>
-  </center>
+ 
+</div>
   </template>
 
 <style>
-/* style of text */
-  .active{
-    color: maroon;
-    font-size: 17px;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Noto+Serif&family=Poppins:wght@200;400&family=Raleway:wght@300&family=Roboto+Condensed&family=Rowdies:wght@300&display=swap');
+  .searchbar{
+    font-family: 'Noto Serif', serif;
+    display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        flex-wrap: nowrap;
+        justify-content:space-around;
+    color: black;
+    font-size: 20px;
+    
+  }
+
+  .home{
+    color: black;
+    font-size: 20px;
   }
   .cont{
-    color: maroon;
-    font-size: 17px;
+    color: black;
+    font-size: 20px;
   }
   .ab{
-    color: maroon;
-    font-size: 17px;
+    color: black;
+    font-size: 20px;
   }
 /* style of overall header */
   .topnav{
-    background-color: lavenderblush;
+    background-color: whitesmoke;
   }
   /* changing color of words on hover */
   .topnav a:hover{
-    color: black;
+    color: pink;
   }
 </style>
 
